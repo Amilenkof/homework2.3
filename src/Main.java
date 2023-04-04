@@ -1,10 +1,8 @@
-import ServiceStation.Bicycle;
-import ServiceStation.Car;
-import ServiceStation.ServiceStation;
-import ServiceStation.Truck;
+import ServiceStation.*;
 
 public class Main {
     public static void main(String[] args) {
+
         Car car = new Car("car1", 4);
         Car car2 = new Car("car2", 4);
 
@@ -24,7 +22,6 @@ public class Main {
 
         serviceStation.check(truck);
         serviceStation.check(truck2);
-
 
 
     }
